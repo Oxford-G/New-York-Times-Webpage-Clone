@@ -161,7 +161,7 @@ figcaption {
   margin-left: 1px;
   color: #666;
   text-align: left;
-  margin: 10px 20px 0px 0px;
+  margin: 10px 20px 1px 1px;
 }
 
 .span-one {
@@ -209,7 +209,7 @@ figcaption {
   line-height: 1.25rem;
   display: inline-block;
   letter-spacing: 0.02rem;
-  margin: 0px;
+  margin: 1px;
   font-weight: 700;
   color: #333;
 }
@@ -223,10 +223,6 @@ figcaption {
   text-decoration: underline;
   text-decoration-color: #ccc;
   display: inline-block;
-}
-
-ul {
-  list-style: none;
 }
 
 .unordered {
@@ -260,7 +256,6 @@ ul {
 
 .div-list {
   display: flex;
-  flex-shrink: 1px;
   font-family: helvetica, arial, sans-serif;
   font-size: 17px;
   margin-bottom: 5px;
@@ -274,7 +269,7 @@ ul {
   color: #999;
   display: inline;
   margin-right: 16px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 1px 10px 1px;
 }
 
 .link-svg {
