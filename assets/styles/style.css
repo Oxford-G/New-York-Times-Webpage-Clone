@@ -106,7 +106,7 @@ nav ul li {
   line-height: 11px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 main {
@@ -158,7 +158,6 @@ figcaption {
 
 .caption {
   max-width: 720px;
-  margin-left: 1px;
   color: #666;
   text-align: left;
   margin: 10px 20px 1px 1px;
@@ -251,7 +250,6 @@ figcaption {
 
 .second-list {
   display: inline;
-  flex-shrink: 1px;
 }
 
 .div-list {
@@ -287,7 +285,7 @@ figcaption {
   color: #999;
   display: inline;
   margin-right: 16px;
-  padding: 10px 1px 10px 1px;  
+  padding: 10px 1px 10px 1px;
 }
 
 .link-svg1 {
@@ -354,12 +352,12 @@ p {
   font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 0.9375rem;
-  margin-top: 1;
+  margin-top: 1px;
 }
 
 .div-planet {
   max-width: 945px;
-  margin: 0px auto 20px auto;
+  margin: 1px auto 20px auto;
   display: block;
   line-height: 1;
   text-align: center;
@@ -376,14 +374,13 @@ p {
 
 .mark {
   max-width: 720px;
-  margin-left: 1px;
   color: #666;
   text-align: left;
   margin: 10px 20px 1px 1px;
   font-size: 0.9525rem;
   display: inline;
   line-height: 1.125rem;
-  font-family: georgia, 'times new roman', times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   letter-spacing: 0.01em;
 }
 
@@ -394,12 +391,11 @@ p {
 
 .telescope-img {
   vertical-align: top;
-  width: 100%;    
+  width: 100%; 
 }
 
 .img-figure {
   max-width: 720px;
-  margin-left: 1px;
   color: #666;
   text-align: left;
   margin: 10px 20px 1px 1px;
