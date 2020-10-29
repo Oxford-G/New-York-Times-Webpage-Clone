@@ -7,26 +7,32 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
+
 div {
   margin: 0px;
   padding: 0px;
   border: 0px;
 }
+
 header {
     /*display: block;  can be removed */
   margin: 0px;
   padding: 0px;
   border: 0px;
 }
+
 section {
   display: block;
 }
+
 ul {
   list-style-type: none;
 }
+
 nav ul li {
   display: inline;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -36,6 +42,7 @@ nav ul li {
   padding-right: 8rem;
   padding-top: 1rem;
 }
+
 .nav-svg {
   margin: 2px;
   margin-top: 0;
@@ -50,10 +57,12 @@ nav ul li {
   border-image: initial;
   padding: 11px 12px 8px;
 }
+
 .nav-svg svg {
   height: 16px;
   width: 16px;
 }
+
 .first-link {
   font-size: 14.25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -64,13 +73,16 @@ nav ul li {
   color: black;
   vertical-align: baseline;
 }
+
 .forth-div {
   text-align: center;
   padding-top: 0px;
 }
+
 .times {
   height: 30px;
 }
+
 .times-link {
   width: 195px;
   height: 26px;
@@ -79,6 +91,7 @@ nav ul li {
   text-decoration: none;
   color: black;
 }
+
 .Subscrib-now {
   padding: 11px 12px 8px 12px;
   border-radius: 3px;
@@ -95,6 +108,7 @@ nav ul li {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
 .Log-In {
   padding: 11px 12px 8px 12px;
   border-radius: 3px;
@@ -111,14 +125,17 @@ nav ul li {
   letter-spacing: 0.05em;
   text-transform: uppercase;  
 }
+
 main {
   height: 100%;
   margin: 0;
   display: block;
 }
+
 .second-header {
   margin-top: 3.75rem;
 }
+
 .main-heading {
   position: relative;
   margin-bottom: 1rem;
@@ -132,6 +149,7 @@ main {
   font-weight: 700;
   font-style: italic;
 }
+
 .figure-class {
   width: 945px;
   max-width: 1200px;
@@ -139,18 +157,22 @@ main {
   margin-right: auto;
   margin-top: 25px;
 }
+
 img {
   height: auto;
   max-width: 100%;
 }
+
 .first-img {
   width: 100%;
   vertical-align: top;
   cursor: pointer;
 }
+
 figcaption {
   display: block;
 }
+
 .caption {
   max-width: 720px;
   margin-left: 0px;
@@ -158,6 +180,7 @@ figcaption {
   text-align: left;
   margin: 10px 20px 0px 0px;
 }
+
 .span-one {
   font-size: 0.935rem;
   line-height: 1.2rem;
@@ -165,6 +188,7 @@ figcaption {
   color: #666;
   font-family: 'Times New Roman', Times, serif;
 }
+
 .span-two {
   font-size: 0.8125rem;
   display: inline;
@@ -172,6 +196,7 @@ figcaption {
   font-family: georgia,'times new roman',times,serif;
   letter-spacing: 0.01em;
 }
+
 .author {
   margin-bottom: 20px;
   color: #121212;
@@ -179,9 +204,11 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
 }
+
 .author-second {
   margin-bottom: 1.5625rem;
 }
+
 .third-author {
   display: flex;
   -webkit-box-align: center;
@@ -189,9 +216,11 @@ figcaption {
   margin-bottom: 15px;
   width: 100%;
 }
+
 .forth-author {
   display: inline-block;
 }
+
 .name {
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -201,18 +230,22 @@ figcaption {
   font-weight: 700;
   color: #333;
 }
+
 .fifth-link {
   display: inline;
   color: #333;
 }
+
 .span-three {
   text-decoration: underline;
   text-decoration-color: #ccc;
   display: inline-block;
 }
+
 ul {
   list-style: none;
 }
+
 .unordered {
   display: flex;
   justify-content: space-between;
@@ -221,10 +254,12 @@ ul {
   align-items: center;
   flex-wrap: nowrap;
 }
+
 .first-list {
   flex-shrink: 1;
   padding-right: 1rem;
 }
+
 .time {
   display: inline-block;
   font-family: helvetica,arial,sans-serif;
@@ -234,10 +269,12 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .second-list {
   display: inline;
   flex-shrink: 0;
 }
+
 .div-list {
   display: flex;
   flex-shrink: 0;
@@ -245,15 +282,18 @@ ul {
   font-size: 17px;
   margin-bottom: 5px;
 }
+
 .unordered-two {
   padding: 0;
 }
+
 .third-list {
   color: #999;
   display: inline;
   margin-right: 16px;
   padding: 10px 0px 10px 0px;
 }
+
 .link-svg {
   display: inline-block;
   vertical-align: middle;
@@ -264,12 +304,14 @@ ul {
   width: 15px;
   height: 15px;
 }
+
 .forth-list {
   color: #999;
   display: inline;
   margin-right: 16px;
   padding: 10px 0px 10px 0px;  
 }
+
 .link-svg1 {
   display: inline-block;
   vertical-align: middle;
@@ -280,9 +322,11 @@ ul {
   width: 15px;
   height: 15px;
 }
+
 .div {
   display: inline;
 }
+
 .list-button {
   background: transparent;
   display: inline-block;
@@ -293,6 +337,7 @@ ul {
   width: 27px;
   height: 27px;
 }
+
 .link-svg3 {
   display: inline-block;
   vertical-align: middle;
@@ -301,12 +346,14 @@ ul {
   height: 15px;
   bottom: 4px;
 }
+
 .list-button1 {
   background-color: rgb(255, 255, 255);
   position: relative;
   left: 0px;
   top: 2px;
 }
+
 .fifth-list {
   color: #999;
   display: inline;
@@ -314,6 +361,7 @@ ul {
   position: relative;
   right: 3px;
 }
+
 .p-div1 {
   width: 700px;
   margin-left: auto;
@@ -323,12 +371,14 @@ ul {
   height: 100%;
   margin-bottom: 1rem;
 }
+
 p {
   font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 0.9375rem;
   margin-top: 0;
 }
+
 .div-planet {
   max-width: 945px;
   margin: 0px auto 20px auto;
@@ -337,6 +387,7 @@ p {
   text-align: center;
   overflow: hidden;
 }
+
 .div-planet1 {
   max-width: 800px;
   margin: 0px auto 20px auto;
@@ -344,6 +395,7 @@ p {
   line-height: 0;
   text-align: center;
 }
+
 .mark {
   max-width: 720px;
   margin-left: 0px;
@@ -356,15 +408,17 @@ p {
   font-family: georgia,'times new roman',times,serif;
   letter-spacing: 0.01em;
 }
+
 .h1-class {
   text-align: left;
   font-size: medium;
 }
+
 .telescope-img {
   vertical-align: top;
-  width: 100%;
-    
+  width: 100%;    
 }
+
 .img-figure {
   max-width: 720px;
   margin-left: 0px;
@@ -377,6 +431,7 @@ p {
   font-family: georgia,'times new roman',times,serif;
   letter-spacing: 0.01em;
 }
+
 .final-div {
   display: flex;
   justify-content: space-between;
@@ -384,6 +439,7 @@ p {
   max-width: 600px;
   margin: 1.5rem auto 2rem auto;
 }
+
 .final-div2 {
   width: 330px;
   color: rgb(153, 153, 153);
@@ -392,6 +448,7 @@ p {
   max-width: 600px;
   padding: 0px 1rem 0px 0px;
 }
+
 .footer-div {
   display: flex;
   border-top: 1px solid black;
@@ -418,11 +475,13 @@ p {
   line-height: 11px;
   text-decoration: none;
 }
+
 .footer-li {
   font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
+
 .footer-svg {
   display: inline-block;
   height: 13px;
@@ -430,6 +489,7 @@ p {
   margin-right: 7px;
   vertical-align: middle;
 }
+
 .li-text {
   margin-left: 1rem;
   text-transform: capitalize;
@@ -439,6 +499,7 @@ p {
 footer ul li {
   display: inline;
 }
+
 .a12 {
   max-width: 852px;
   padding: 0px;
@@ -448,6 +509,7 @@ footer ul li {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 .b12 {
   display: flex;
   border-top: 1px solid rgb(0, 0, 0);
@@ -455,6 +517,7 @@ footer ul li {
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
 }
+
 .c12 {
   font-size: 1rem;
   line-height: 1.375rem;
@@ -467,6 +530,7 @@ footer ul li {
   font-weight: 700;
   max-width: 851.25px;
 }
+
 .d12 {
   width: 100%;
   -moz-box-pack: justify;
@@ -477,6 +541,7 @@ footer ul li {
   max-width: 852px;
   padding-top: 15px;
 }
+
 .e12 {
   padding-left: 0px;
   padding-right: 0px;
@@ -487,6 +552,7 @@ footer ul li {
   -moz-box-flex: 1;
   flex-grow: 1;
 }
+
 .f12 {
   height: 100%;
   background-color: rgb(255, 255, 255);
@@ -498,6 +564,7 @@ footer ul li {
   height: 100%;
   max-width: inherit;
 }
+
 .g12 {
   line-height: 1.375rem;
   text-align: left;
