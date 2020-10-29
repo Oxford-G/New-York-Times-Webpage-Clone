@@ -7,32 +7,26 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
-
 div {
   margin: 0px;
   padding: 0px;
   border: 0px;
 }
-
 header {
     /*display: block;  can be removed */
   margin: 0px;
   padding: 0px;
   border: 0px;
 }
-
 section {
   display: block;
 }
-
 ul {
   list-style-type: none;
 }
-
 nav ul li {
   display: inline;
 }
-
 .menu {
   display: flex;
   justify-content: space-between;
@@ -42,7 +36,6 @@ nav ul li {
   padding-right: 8rem;
   padding-top: 1rem;
 }
-
 .nav-svg {
   margin: 2px;
   margin-top: 0;
@@ -56,13 +49,11 @@ nav ul li {
   border-width: 1px;
   border-image: initial;
   padding: 11px 12px 8px;
-  }
-
+}
 .nav-svg svg {
   height: 16px;
   width: 16px;
 }
-
 .first-link {
   font-size: 14.25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +79,6 @@ nav ul li {
   text-decoration: none;
   color: black;
 }
-
 .Subscrib-now {
   padding: 11px 12px 8px 12px;
   border-radius: 3px;
@@ -105,7 +95,6 @@ nav ul li {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-
 .Log-In {
   padding: 11px 12px 8px 12px;
   border-radius: 3px;
