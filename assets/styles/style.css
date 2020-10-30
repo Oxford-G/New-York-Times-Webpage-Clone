@@ -14,10 +14,6 @@ body {
   color: black;
 }
 
-section .times-link main {
-  display: block;
-}
-
 ul {
   list-style-type: none;
 }
@@ -166,7 +162,7 @@ img {
   margin-bottom: 1px;
 }
 
-figcaption .div-planet, .div-planet1 .a12 {
+figcaption .div-planet .div-planet1 .a12 {
   display: block;
 }
 
@@ -560,4 +556,8 @@ footer ul li {
   flex-wrap: nowrap;
   max-width: 852px;
   padding-top: 15px;
+}
+
+section .times-link main {
+  display: block;
 }
