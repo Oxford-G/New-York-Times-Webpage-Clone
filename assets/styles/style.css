@@ -36,7 +36,6 @@ nav ul li {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   border-radius: 3px;
-  transition: all 0.6s ease 0s;
   border-width: 1px;
   border-image: initial;
   padding: 11px 12px 8px;
