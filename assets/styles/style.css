@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
 }
 
-section {
+section .times-link, main {
   display: block;
 }
 
@@ -69,7 +69,6 @@ nav ul li {
   width: 195px;
   height: 26px;
   margin: 6px auto 1px auto;
-  display: block;
   text-decoration: none;
   color: black;
 }
@@ -111,7 +110,6 @@ nav ul li {
 main {
   height: 100%;
   margin: 1px;
-  display: block;
 }
 
 .second-header {
@@ -151,7 +149,7 @@ img {
   cursor: pointer;
 }
 
-figcaption {
+figcaption .div-planet, .div-planet1 .a12 {
   display: block;
 }
 
@@ -357,7 +355,6 @@ p {
 .div-planet {
   max-width: 945px;
   margin: 1px auto 20px auto;
-  display: block;
   line-height: 1;
   text-align: center;
   overflow: hidden;
@@ -366,7 +363,6 @@ p {
 .div-planet1 {
   max-width: 800px;
   margin: 1px auto 20px auto;
-  display: block;
   line-height: 0px;
   text-align: center;
 }
@@ -476,7 +472,6 @@ footer ul li {
 .a12 {
   max-width: 852px;
   padding: 1px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1px;
@@ -544,4 +539,25 @@ footer ul li {
   font-weight: 500;
   padding-right: 10px;
   font-size: 1rem;
+}
+
+.frame {
+  height: 315px;
+  width: 560px;
+}
+
+.drawdown-tag {
+  height: 16px;
+  width: 16px;
+}
+
+.j12 {
+  width: 100%;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  border-bottom: medium none;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 852px;
+  padding-top: 15px;
 }
