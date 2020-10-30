@@ -567,7 +567,3 @@ section .times-link main {
   font-size: 13px;
   line-height: 21px;
 }
-.stick {
-  position: sticky;
-  bottom: 0px;
-}
