@@ -105,7 +105,7 @@ nav ul li {
 
 main {
   height: 100%;
-  margin: 1px;
+  margin: auto;
 }
 
 .second-header {
@@ -472,6 +472,7 @@ p {
 
 footer ul li {
   display: inline;
+  position: relative;
 }
 
 .b12 {
@@ -560,4 +561,13 @@ footer ul li {
 
 section .times-link main {
   display: block;
+}
+
+.theory {
+  font-size: 13px;
+  line-height: 21px;
+}
+.stick {
+  position: sticky;
+  bottom: 0px;
 }
