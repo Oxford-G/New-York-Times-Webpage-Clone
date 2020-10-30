@@ -6,7 +6,15 @@ body {
   overflow-x: hidden;
 }
 
-section .times-link, main {
+.times-link {
+  width: 195px;
+  height: 26px;
+  margin: 6px auto 1px auto;
+  text-decoration: none;
+  color: black;
+}
+
+section .times-link main {
   display: block;
 }
 
@@ -63,14 +71,6 @@ nav ul li {
 
 .times {
   height: 30px;
-}
-
-.times-link {
-  width: 195px;
-  height: 26px;
-  margin: 6px auto 1px auto;
-  text-decoration: none;
-  color: black;
 }
 
 .Subscrib-now {
@@ -147,6 +147,23 @@ img {
   width: 100%;
   vertical-align: top;
   cursor: pointer;
+}
+
+.div-planet {
+  max-width: 945px;
+  margin: 1px auto 20px auto;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+}
+
+.a12 {
+  max-width: 852px;
+  padding: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 figcaption .div-planet, .div-planet1 .a12 {
@@ -352,14 +369,6 @@ p {
   margin-top: 1px;
 }
 
-.div-planet {
-  max-width: 945px;
-  margin: 1px auto 20px auto;
-  line-height: 1;
-  text-align: center;
-  overflow: hidden;
-}
-
 .div-planet1 {
   max-width: 800px;
   margin: 1px auto 20px auto;
@@ -467,15 +476,6 @@ p {
 
 footer ul li {
   display: inline;
-}
-
-.a12 {
-  max-width: 852px;
-  padding: 1px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1px;
-  margin-bottom: 1px;
 }
 
 .b12 {
