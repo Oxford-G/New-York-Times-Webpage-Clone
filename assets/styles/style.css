@@ -606,11 +606,6 @@ a {
   list-style: none;
 }
 
-.most-pop ul li {
-  padding: 1.2rem 1rem;
-  border-top: 1px solid lightgray;
-}
-
 .span-two,
 nav,
 ul,
@@ -626,4 +621,9 @@ li,
 .final-div2,
 footer {
   display: inline;
+}
+
+.most-pop ul li {
+  padding: 1.2rem 1rem;
+  border-top: 1px solid lightgray;
 }
