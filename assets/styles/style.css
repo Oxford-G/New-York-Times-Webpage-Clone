@@ -1,0 +1,629 @@
+body {
+  height: 100%;
+  line-height: 1;
+  color: #333;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.times-link {
+  width: 195px;
+  height: 26px;
+  margin: 6px auto 1px auto;
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu {
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 1rem;
+}
+
+.nav-svg {
+  margin: 2px;
+  color: black;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border-width: 1px;
+  border-image: initial;
+  padding: 11px 12px 8px;
+}
+
+.nav-svg svg {
+  height: 16px;
+  width: 16px;
+}
+
+.first-link {
+  font-size: 14.25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  color: black;
+  vertical-align: baseline;
+}
+
+.forth-div {
+  text-align: center;
+}
+
+.times {
+  height: 30px;
+}
+
+.Subscrib-now {
+  padding: 11px 12px 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: white;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.Log-In {
+  padding: 11px 12px 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: white;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+main {
+  height: 100%;
+  margin: auto;
+}
+
+.second-header {
+  margin-top: 3.75rem;
+}
+
+.main-heading,
+.figure-class,
+.a12,
+.author,
+.p-div1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-heading {
+  position: relative;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #121212;
+  font-family: georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.figure-class {
+  width: 945px;
+  max-width: 1200px;
+  margin-top: 25px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.first-img {
+  width: 100%;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.div-planet {
+  max-width: 945px;
+  margin: 1px auto 20px auto;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+}
+
+.a12 {
+  max-width: 852px;
+  padding: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+figcaption .div-planet .div-planet1 .a12 {
+  display: block;
+}
+
+.caption {
+  max-width: 720px;
+  color: #666;
+  text-align: left;
+  margin: 10px 20px 1px 1px;
+}
+
+.span-one {
+  font-size: 0.935rem;
+  line-height: 1.2rem;
+  margin-right: 7px;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.span-two {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-family: georgia, 'times new roman', times, serif;
+  letter-spacing: 0.01em;
+}
+
+.author {
+  margin-bottom: 20px;
+  color: #121212;
+  max-width: 700px;
+}
+
+.author-second {
+  margin-bottom: 1.5625rem;
+}
+
+.third-author {
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.forth-author {
+  display: inline-block;
+}
+
+.name {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  display: inline-block;
+  letter-spacing: 0.02rem;
+  margin: 1px;
+  font-weight: 700;
+  color: #333;
+}
+
+.fifth-link {
+  color: #333;
+}
+
+.span-three {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  display: inline-block;
+}
+
+.unordered {
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.first-list {
+  flex-shrink: 1;
+  padding-right: 1rem;
+}
+
+.time {
+  display: inline-block;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 00.8125rem;
+  line-height: 1rem;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.div-list {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.unordered-two {
+  padding: 1px;
+}
+
+.third-list {
+  color: #999;
+  margin-right: 16px;
+  padding: 10px 1px 10px 1px;
+}
+
+.link-svg {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.forth-list {
+  color: #999;
+  margin-right: 16px;
+  padding: 10px 1px 10px 1px;
+}
+
+.link-svg1 {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 15px 5px 5px 15px;
+  width: 15px;
+  height: 15px;
+}
+
+.list-button {
+  background: transparent;
+  display: inline-block;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 27px;
+  height: 27px;
+}
+
+.link-svg3 {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  bottom: 4px;
+}
+
+.list-button1 {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 1px;
+  top: 2px;
+}
+
+.fifth-list {
+  color: #999;
+  padding: 10px 1px 10px 1px;
+  position: relative;
+  right: 3px;
+}
+
+.p-div1 {
+  width: 700px;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 0.9375rem;
+  margin-top: 1px;
+}
+
+.div-planet1 {
+  max-width: 800px;
+  margin: 1px auto 20px auto;
+  line-height: 0px;
+  text-align: center;
+}
+
+.mark {
+  max-width: 720px;
+  color: #666;
+  text-align: left;
+  margin: 10px 20px 1px 1px;
+  font-size: 0.9525rem;
+  line-height: 1.125rem;
+  font-family: georgia, 'times new roman', times, serif;
+  letter-spacing: 0.01em;
+}
+
+.h1-class {
+  text-align: left;
+  font-size: medium;
+}
+
+.telescope-img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.img-figure {
+  max-width: 720px;
+  color: #666;
+  text-align: left;
+  margin: 10px 20px 1px 1px;
+  font-size: 0.9525rem;
+  line-height: 1.125rem;
+  font-family: georgia, 'times new roman', times, serif;
+  letter-spacing: 0.01em;
+}
+
+.final-div {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: 1.5rem auto 2rem auto;
+}
+
+.final-div2 {
+  width: 330px;
+  color: rgb(153, 153, 153);
+  margin-right: 16px;
+  max-width: 600px;
+  padding: 1px 1rem 1px 1px;
+}
+
+.footer-div {
+  border-top: 1px solid black;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.new-yorktime {
+  margin: 1px auto;
+  max-width: 80rem;
+}
+
+.csfsgs {
+  position: relative;
+  left: 56rem;
+  top: 1.2rem;
+  color: cornflowerblue;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.footer-li {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer-svg {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.li-text {
+  margin-left: 1rem;
+  text-transform: capitalize;
+  color: #666;
+}
+
+footer {
+  position: relative;
+}
+
+.b12 {
+  border-top: 1px solid rgb(0, 0, 0);
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.c12 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  padding: 17px 20px 1px 1px;
+  background-color: white;
+  box-sizing: border-box;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  max-width: 851.25px;
+}
+
+.d12 {
+  width: 100%;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  border-bottom: medium none;
+  flex-wrap: wrap;
+  max-width: 852px;
+  padding-top: 15px;
+}
+
+.e12 {
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-bottom: 20px;
+  max-width: 92%;
+  flex-basis: 32%;
+  -moz-box-flex: 1;
+  flex-grow: 1;
+}
+
+.f12 {
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  padding-top: 1px;
+  border-bottom: medium none;
+  width: 100%;
+  max-width: inherit;
+}
+
+.g12 {
+  line-height: 1.375rem;
+  text-align: left;
+  -moz-box-flex: 1;
+  flex-grow: 1;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+  padding-right: 10px;
+  font-size: 1rem;
+}
+
+.frame {
+  height: 315px;
+  width: 560px;
+}
+
+.drawdown-tag {
+  height: 16px;
+  width: 16px;
+}
+
+.j12 {
+  width: 100%;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  border-bottom: medium none;
+  flex-wrap: nowrap;
+  max-width: 852px;
+  padding-top: 15px;
+}
+
+section .times-link main {
+  display: block;
+}
+
+.theory {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.stick {
+  position: fixed;
+  bottom: 1px;
+  background-color: black;
+}
+
+a {
+  color: #eee;
+}
+
+.second-section {
+  width: 200px;
+  margin-left: 300px;
+}
+
+.menu-2 {
+  display: flex;
+}
+
+.aside-picks {
+  position: absolute;
+  right: 2.5%;
+  max-width: 250px;
+  z-index: -5;
+  margin-top: 600px;
+}
+
+.aside-picks h3 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-right: 5px;
+}
+
+.picks {
+  width: 50px;
+  margin-right: 0.8rem;
+}
+
+.recommendations {
+  width: 92%;
+}
+
+.right-reccomendations {
+  width: 350px;
+}
+
+.recommendations .article-img {
+  height: 180px;
+  width: 260px;
+}
+
+.recommendations .right-reccomendations {
+  float: right;
+}
+
+.recommendations::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pop-link {
+  color: #333;
+  font-weight: 700;
+}
+
+.pop-link:hover {
+  color: darkgray;
+}
+
+.span-two,
+nav,
+ul,
+li,
+.fifth-link,
+.second-list,
+.third-list,
+.forth-list,
+.div,
+.fifth-list,
+.mark,
+.img-figure,
+.final-div2,
+footer {
+  display: inline;
+}
+
+.most-pop ul li {
+  padding: 1.2rem 1rem;
+  border-top: 1px solid lightgray;
+}
+
+.most-pop ul {
+  list-style: none;
+}
