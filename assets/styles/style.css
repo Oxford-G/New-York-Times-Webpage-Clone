@@ -602,10 +602,6 @@ a {
   color: darkgray;
 }
 
-.most-pop ul {
-  list-style: none;
-}
-
 .span-two,
 nav,
 ul,
@@ -626,4 +622,8 @@ footer {
 .most-pop ul li {
   padding: 1.2rem 1rem;
   border-top: 1px solid lightgray;
+}
+
+.most-pop ul {
+  list-style: none;
 }
