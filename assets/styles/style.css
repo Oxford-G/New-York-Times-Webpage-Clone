@@ -18,12 +18,7 @@ ul {
   list-style-type: none;
 }
 
-nav ul li {
-  display: inline;
-}
-
 .menu {
-  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
@@ -112,11 +107,18 @@ main {
   margin-top: 3.75rem;
 }
 
+.main-heading,
+.figure-class,
+.a12,
+.author,
+.p-div1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-heading {
   position: relative;
   margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 600px;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -129,8 +131,6 @@ main {
 .figure-class {
   width: 945px;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 25px;
 }
 
@@ -156,8 +156,6 @@ img {
 .a12 {
   max-width: 852px;
   padding: 1px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 1px;
   margin-bottom: 1px;
 }
@@ -183,7 +181,6 @@ figcaption .div-planet .div-planet1 .a12 {
 
 .span-two {
   font-size: 0.8125rem;
-  display: inline;
   line-height: 1.125rem;
   font-family: georgia, 'times new roman', times, serif;
   letter-spacing: 0.01em;
@@ -193,8 +190,6 @@ figcaption .div-planet .div-planet1 .a12 {
   margin-bottom: 20px;
   color: #121212;
   max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .author-second {
@@ -202,7 +197,6 @@ figcaption .div-planet .div-planet1 .a12 {
 }
 
 .third-author {
-  display: flex;
   -webkit-box-align: center;
   align-items: center;
   margin-bottom: 15px;
@@ -224,7 +218,6 @@ figcaption .div-planet .div-planet1 .a12 {
 }
 
 .fifth-link {
-  display: inline;
   color: #333;
 }
 
@@ -235,7 +228,6 @@ figcaption .div-planet .div-planet1 .a12 {
 }
 
 .unordered {
-  display: flex;
   justify-content: space-between;
   -webkit-box-pack: justify;
   -webkit-box-align: center;
@@ -258,12 +250,7 @@ figcaption .div-planet .div-planet1 .a12 {
   margin-bottom: 1px;
 }
 
-.second-list {
-  display: inline;
-}
-
 .div-list {
-  display: flex;
   font-family: helvetica, arial, sans-serif;
   font-size: 17px;
   margin-bottom: 5px;
@@ -275,7 +262,6 @@ figcaption .div-planet .div-planet1 .a12 {
 
 .third-list {
   color: #999;
-  display: inline;
   margin-right: 16px;
   padding: 10px 1px 10px 1px;
 }
@@ -293,7 +279,6 @@ figcaption .div-planet .div-planet1 .a12 {
 
 .forth-list {
   color: #999;
-  display: inline;
   margin-right: 16px;
   padding: 10px 1px 10px 1px;
 }
@@ -307,10 +292,6 @@ figcaption .div-planet .div-planet1 .a12 {
   padding: 15px 5px 5px 15px;
   width: 15px;
   height: 15px;
-}
-
-.div {
-  display: inline;
 }
 
 .list-button {
@@ -342,7 +323,6 @@ figcaption .div-planet .div-planet1 .a12 {
 
 .fifth-list {
   color: #999;
-  display: inline;
   padding: 10px 1px 10px 1px;
   position: relative;
   right: 3px;
@@ -350,9 +330,6 @@ figcaption .div-planet .div-planet1 .a12 {
 
 .p-div1 {
   width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
   flex-direction: column;
   height: 100%;
   margin-bottom: 1rem;
@@ -378,7 +355,6 @@ p {
   text-align: left;
   margin: 10px 20px 1px 1px;
   font-size: 0.9525rem;
-  display: inline;
   line-height: 1.125rem;
   font-family: georgia, 'times new roman', times, serif;
   letter-spacing: 0.01em;
@@ -400,14 +376,12 @@ p {
   text-align: left;
   margin: 10px 20px 1px 1px;
   font-size: 0.9525rem;
-  display: inline;
   line-height: 1.125rem;
   font-family: georgia, 'times new roman', times, serif;
   letter-spacing: 0.01em;
 }
 
 .final-div {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 600px;
@@ -417,21 +391,18 @@ p {
 .final-div2 {
   width: 330px;
   color: rgb(153, 153, 153);
-  display: inline;
   margin-right: 16px;
   max-width: 600px;
   padding: 1px 1rem 1px 1px;
 }
 
 .footer-div {
-  display: flex;
   border-top: 1px solid black;
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
 }
 
 .new-yorktime {
-  display: flex;
   margin: 1px auto;
   max-width: 80rem;
 }
@@ -469,13 +440,11 @@ p {
   color: #666;
 }
 
-footer ul li {
-  display: inline;
+footer {
   position: relative;
 }
 
 .b12 {
-  display: flex;
   border-top: 1px solid rgb(0, 0, 0);
   -moz-box-pack: justify;
   justify-content: space-between;
@@ -498,7 +467,6 @@ footer ul li {
   -moz-box-pack: justify;
   justify-content: space-between;
   border-bottom: medium none;
-  display: flex;
   flex-wrap: wrap;
   max-width: 852px;
   padding-top: 15px;
@@ -510,7 +478,6 @@ footer ul li {
   padding-bottom: 20px;
   max-width: 92%;
   flex-basis: 32%;
-  display: flex;
   -moz-box-flex: 1;
   flex-grow: 1;
 }
@@ -518,7 +485,6 @@ footer ul li {
 .f12 {
   height: 100%;
   background-color: rgb(255, 255, 255);
-  display: flex;
   flex-direction: column;
   padding-top: 1px;
   border-bottom: medium none;
@@ -552,7 +518,6 @@ footer ul li {
   -moz-box-pack: justify;
   justify-content: space-between;
   border-bottom: medium none;
-  display: flex;
   flex-wrap: nowrap;
   max-width: 852px;
   padding-top: 15px;
@@ -578,9 +543,12 @@ a {
 }
 
 .second-section {
-  display: flex;
   width: 200px;
   margin-left: 300px;
+}
+
+.menu-2 {
+  display: flex;
 }
 
 .aside-picks {
@@ -604,7 +572,6 @@ a {
 
 .recommendations {
   width: 92%;
-  display: flex;
 }
 
 .right-reccomendations {
@@ -642,4 +609,21 @@ a {
 .most-pop ul li {
   padding: 1.2rem 1rem;
   border-top: 1px solid lightgray;
+}
+
+.span-two,
+nav,
+ul,
+li,
+.fifth-link,
+.second-list,
+.third-list,
+.forth-list,
+.div,
+.fifth-list,
+.mark,
+.img-figure,
+.final-div2,
+footer {
+  display: inline;
 }
