@@ -641,25 +641,30 @@ form {
   width: 240px;
   margin: 0px auto;
 }
+
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
+
 input {
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
 .account-info {
   padding: 20px 20px 0 20px;
 }
+
 .account-info label {
   color: #395870;
   display: block;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .account-info input {
   background: #fff;
   border: 1px solid #c6c7cc;
@@ -669,11 +674,13 @@ input {
   margin-top: 6px;
   width: 100%;
 }
+
 .account-action {
   background: #f0f0f2;
   border-top: 1px solid #c6c7cc;
   padding: 20px;
 }
+
 .account-action .btn {
   background: linear-gradient(#49708f, #293f50);
   border: 0;
@@ -683,6 +690,7 @@ input {
   float: left;
   padding: 8px 16px;
 }
+
 .account-action label {
   color: #7c7c80;
   font-size: 12px;
@@ -691,13 +699,13 @@ input {
 }
 
 input:invalid {
-    border: 2px dashed red;
-  }
+  border: 2px dashed red;
+}
   
-  input:invalid:required {
-    background-image: linear-gradient(to right, pink, lightgreen);
-  }
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
   
-  input:valid {
-    border: 2px solid black;
-  }
+input:valid {
+  border: 2px solid black;
+}
