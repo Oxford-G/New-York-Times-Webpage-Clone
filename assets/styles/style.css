@@ -628,11 +628,6 @@ footer {
   list-style: none;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 form {
   border: 1px solid #c6c7cc;
   border-radius: 5px;
@@ -701,11 +696,11 @@ input {
 input:invalid {
   border: 2px dashed red;
 }
-  
+
 input:invalid:required {
   background-image: linear-gradient(to right, pink, lightgreen);
 }
-  
+ 
 input:valid {
   border: 2px solid black;
 }
