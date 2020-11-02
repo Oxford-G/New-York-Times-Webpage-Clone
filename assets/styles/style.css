@@ -634,8 +634,7 @@ form {
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   width: 700px;
-  margin: 10px auto;
-  
+  margin: 10px auto; 
 }
 
 fieldset {
@@ -664,7 +663,6 @@ input {
 .account-info input {
   background: #fff;
   border: 1px solid #c6c7cc;
-  box-shadow: 1 0px 0px rgba(0, 0, 0, .1);
   color: #636466;
   padding: 6px;
   margin-top: 6px;
