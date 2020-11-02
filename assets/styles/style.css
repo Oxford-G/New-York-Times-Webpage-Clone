@@ -633,20 +633,21 @@ form {
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
-  width: 240px;
-  margin: 1px auto;
+  width: 700px;
+  margin: 10px auto;
+  
 }
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+  border: 1px;
+  margin: 1px;
+  padding: 1px;
 }
 
 input {
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 1;
+  margin: 1px;
 }
 
 .account-info {
@@ -678,7 +679,7 @@ input {
 
 .account-action .btn {
   background: linear-gradient(#49708f, #293f50);
-  border: 0;
+  border: 1px;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -693,14 +694,14 @@ input {
   margin: 10px 0 0 20px;
 }
 
-input:invalid:required {
-  background-image: linear-gradient(to right, pink, lightgreen);
-}
-
 input:invalid {
   border: 2px dashed red;
 }
 
 input:valid {
   border: 2px solid black;
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
 }
